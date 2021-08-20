@@ -1,0 +1,28 @@
+<div class="row container mt-4">
+    <!--key: 'Cyb8Y3tYTaGGoAQd0SnhfA'-->
+    <script>
+
+        window.flowbox('init', {
+        container: '#js-flowbox-flow',        
+        key: 'R6M05L8zS3K5ORHt4Qcu6A',
+        locale: 'pl-PL'
+        })
+    </script>
+        
+
+    <div class="col-3">
+        <h2>Busquedas</h2>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">Buscar Pais</li>
+            <li class="list-group-item">Por Región</li>
+            <li routerLink="capital"
+                class="list-group-item">Por Capital</li>
+        </ul>
+    </div>
+    <div id="js-flowbox-flow"></div>
+    <div class="col">
+        <router-outlet></router-outlet>
+    </div>
+
+</div>
